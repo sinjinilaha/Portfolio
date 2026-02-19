@@ -1,48 +1,60 @@
-<H1> SINJINI LAHA PORTFOLIO </H1>
+# Sinjini Laha - Portfolio
 
-## Portfolio Website (Under Construction)
+Welcome to my personal portfolio website! I'm Sinjini Laha, a Computer Science student specializing in AI, algorithms, and scalable systems.
 
-This repository contains the source code for my personal portfolio website.  
-The project is currently in active development and will be updated regularly.
+## 🚀 Live Site
+This site is hosted on GitHub Pages: [sinjinilaha.github.io/portfolio](https://sinjinilaha.github.io/portfolio) (replace with your actual URL).
 
-## Overview
+## 📋 Overview
+This portfolio showcases:
+- My skills in Java, Python, SQL, Data Structures, and Machine Learning
+- Academic background and passion for AI & software engineering
+- Downloadable resume
+- Contact information and social links
 
-The portfolio is being designed to present:
+## 🛠 Tech Stack
+- **HTML5** - Semantic structure
+- **CSS3** - Responsive design with dark/light themes
+- **Vanilla JavaScript** - Interactive features (theme toggle, animations)
+- **GitHub Pages** - Hosting
 
-- Technical projects
-- Skills and tools
-- Academic background
-- Resume
-- Contact information
+## 🎨 Features
+- Responsive design for all devices
+- Dark/light mode toggle
+- Smooth animations (typing effect, progress bars)
+- Scroll-to-top button
+- Email copy functionality
 
-The objective is to build a responsive, performance-oriented, and well-structured website that reflects my technical capabilities and growth.
+## 📁 Project Structure
+```
+portfolio/
+├── index.html          # Main page
+├── style.css           # Stylesheets
+├── script.js           # JavaScript
+├── README.md           # This file
+└── assets/             # Images, resume, etc.
+    ├── profile.jpg
+    └── resume.pdf
+```
 
-## Tech Stack (Planned)
+## 🚀 Deployment Instructions
+1. Fork or clone this repo.
+2. Ensure `index.html` is in the root.
+3. Go to your repo on GitHub > Settings > Pages.
+4. Set source to "Deploy from a branch" > Branch: main > Folder: /(root).
+5. Save and wait for deployment (usually 1-2 minutes).
+6. Your site will be at `https://[username].github.io/[repo-name]`.
 
-- HTML5
-- CSS3
-- JavaScript
-- React.js (if applicable)
-- Git & GitHub
-- Deployment via GitHub Pages (for now)
+## 📝 Notes
+- Projects section is coming soon once they're live.
+- Contact form is simplified for now—feel free to email directly.
+- Optimized for performance and accessibility.
 
-## Current Status
-
-Development in progress.  
-Features, design, and content are being iteratively improved.
-
-## Roadmap
-
-- Design layout and structure
-- Implement responsive UI
-- Add project showcase section
-- Optimize performance
-- Deploy live version
-
-## Note
-
-This repository is actively maintained. Updates will be pushed consistently as development progresses.
+## 🤝 Connect
+- Email: sinjinilaha@gmail.com
+- GitHub: [sinjinilaha](https://github.com/sinjinilaha)
+- LinkedIn: [sinjini-laha](https://in.linkedin.com/in/sinjini-laha)
 
 ---
 
-Thank you for visiting.
+Built with ❤️ using HTML, CSS & JS.

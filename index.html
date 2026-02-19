@@ -1,101 +1,168 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <title>Sinjini | AI & Software Engineer</title>
+    <meta name="description" content="Portfolio of Sinjini Laha, Computer Science student specializing in AI, algorithms, and software engineering. Download resume and get in touch.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta name="keywords" content="Computer Science Student, AI Portfolio, Machine Learning Intern, Computer Vision Internship, Software Engineering Student, GitHub Portfolio">
+    <meta name="author" content="Sinjini Laha">
+    <meta property="og:title" content="Sinjini Laha | Computer Science Student Portfolio">
+    <meta property="og:description" content="Portfolio of a Computer Science undergraduate with experience in Computer Vision and Industrial ML.">
+    <meta property="og:type" content="website">
 
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
 
 <nav>
     <h2>Sinjini Laha</h2>
-    <div>
+    <div class="nav-links">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
+        <button id="themeToggle"><i class="fas fa-moon"></i></button>
     </div>
 </nav>
 
+<!-- HERO -->
 <section class="hero">
-    <h1>Hi, I'm Sinjini!</h1>
-    <p>CSE Student | AI Enthusiast | GATE 2026 Aspirant</p>
-    <a href="assets/resume.pdf" class="btn">Download Resume</a>
+    <div class="hero-container">
+        <div class="hero-text">
+            <h1>Hi, I'm <span class="highlight">Sinjini</span></h1>
+            <h2><span class="typing"></span></h2>
+            <p>
+                Computer Science undergraduate exploring algorithms, AI, and software development through academics and hands-on learning. Continuously working on improving problem-solving skills and building practical experience.            </p>
+
+            <div class="hero-buttons">
+                <a href="assets/resume.pdf" class="btn primary" target="_blank">Download Resume</a>
+                <a href="#contact" class="btn secondary">Get In Touch</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="assets/profile.jpg" loading="lazy" alt="Profile image of Sinjini Laha.">
+
+        </div>
+    </div>
 </section>
 
+<!-- ABOUT -->
 <section id="about" class="section">
     <h2>About Me</h2>
     <p>
-        I am a Computer Science student focused on building strong foundations in 
-        Data Structures, Algorithms, Artificial Intelligence and System Design.
-        I aim to build scalable, real-world solutions while preparing for GATE 2026.
+        I am a Computer Science student with an interest in problem solving, artificial intelligence, and software development. I enjoy understanding how systems work and gradually strengthening my foundations through coursework, practice, and projects.
     </p>
 </section>
 
-<section id="skills" class="section light">
+<!-- SKILLS -->
+<section id="skills" class="section alt-bg">
     <h2>Skills</h2>
-    <div class="grid">
-        <div class="card">Java</div>
-        <div class="card">Python</div>
-        <div class="card">SQL</div>
-        <div class="card">Data Structures</div>
-        <div class="card">Machine Learning</div>
-        <div class="card">HTML & CSS</div>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+            <span>Java</span>
+            <div class="progress"><div class="progress-fill" data-level="75"></div></div>
+        </div>
+        <div class="skill-card">
+            <span>C</span>
+            <div class="progress"><div class="progress-fill" data-level="70"></div></div>
+        </div>
+
+        <div class="skill-card">
+            <span>Python</span>
+            <div class="progress"><div class="progress-fill" data-level="90"></div></div>
+        </div>
+
+        <div class="skill-card">
+            <span>SQL</span>
+            <div class="progress"><div class="progress-fill" data-level="65"></div></div>
+        </div>
+
+        <div class="skill-card">
+            <span>Data Structures</span>
+            <div class="progress"><div class="progress-fill" data-level="70"></div></div>
+        </div>
+
+        <div class="skill-card">
+            <span>Machine Learning</span>
+            <div class="progress"><div class="progress-fill" data-level="50"></div></div>
+        </div>
+
+    </div>
+</section>
+<!-- INTERNSHIPS -->
+<section id="internships" class="section">
+
+    <h2>Internships & Experience</h2>
+
+    <div class="internship-card">
+        <h3>Computer Vision & Industrial ML Intern — TAMSystech (Remote, South Korea)</h3>
+        <p><strong>May 20 – July 21, 2025 | Team Leader</strong></p>
+
+        <p>
+            Contributed to an industrial Factory Acceptance Test (FAT) project 
+            for a bottle defect detection system developed for JUNG KWAN JANG 
+            (100g, 240g, and 250g variants).
+        </p>
+
+        <ul>
+            <li>Led and coordinated a cross-functional team to meet project deadlines.</li>
+            <li>Verified and refined outputs to ensure quality and system reliability.</li>
+            <li>Provided technical support in image annotation, model testing, and training workflows.</li>
+            <li>Facilitated communication and workflow alignment among stakeholders.</li>
+        </ul>
+
+        <p>
+            This experience strengthened my technical understanding of computer vision systems 
+            and helped me develop leadership, coordination, and problem-solving skills in a real-world environment.
+        </p>
+    </div>
+
+    <div class="internship-card">
+        <h3>PWC Launchpad 2026 Participant</h3>
+        <p>
+            Selected for a structured industry exposure program focused on 
+            professional development, business understanding, and technology applications.
+        </p>
+    </div>
+
+    <p style="margin-top:20px; opacity:0.7;">
+        Currently open to internship opportunities to gain real-world experience and continue learning.
+    </p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section alt-bg">
+    <h2>Contact Me</h2>
+    <p>
+        As a Computer Science student passionate about AI and software engineering, I'm always excited to connect with fellow students, mentors, or explore new opportunities. Whether it's collaborating on projects, discussing tech trends, or just chatting about code—feel free to reach out!
+    </p>
+
+    <div class="contact-extra">
+        <button onclick="copyEmail()" class="btn secondary">Copy My Email</button>
+    </div>
+
+    <div class="social-icons">
+        <a href="mailto:sinjinilaha@gmail.com" aria-label="Email me"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/sinjinilaha" target="_blank" rel="noopener noreferrer" aria-label="Visit GitHub profile"><i class="fab fa-github"></i></a>
+        <a href="https://in.linkedin.com/in/sinjini-laha" target="_blank" aria-label="Connect on LinkedIn"><i class="fab fa-linkedin"></i></a>
     </div>
 </section>
 
-<section id="projects" class="section">
-    <h2>Projects</h2>
-    <div class="grid">
-
-        <div class="card project">
-            <h3>AI Chatbot</h3>
-            <p>NLP-based conversational assistant using Python.</p>
-        </div>
-
-        <div class="card project">
-            <h3>Data Analytics Dashboard</h3>
-            <p>EDA and visualization using Pandas & Matplotlib.</p>
-        </div>
-
-        <div class="card project">
-            <h3>Algorithm Visualizer</h3>
-            <p>Interactive visualization of sorting algorithms.</p>
-        </div>
-
-    </div>
-</section>
-
-<section id="contact" class="section light">
-    <h2>Contact</h2>
-    
-
-    <div class="social-container">
-        <h3>Social Handles</h3>
-
-        <div class="social-icons">
-                
-            <a href="mailto:sinjinilaha@gmail.com" target="_blank">
-                <i class="fas fa-envelope"></i>
-            </a>
-
-            <a href="https://github.com/sinjinilaha" target="_blank">
-                <i class="fab fa-github"></i>
-            </a>
-
-            <a href="https://in.linkedin.com/in/sinjini-laha" target="_blank">
-                <i class="fab fa-linkedin"></i>
-            </a>
-        </div>
-    </div>
-</section>
+<button id="scrollToTop"><i class="fas fa-arrow-up"></i></button>
 
 <footer>
-    <p>© 2026 Sinjini Laha | Built with HTML & CSS</p>
+    <p>© 2026 Sinjini Laha | Built with HTML, CSS & JS</p>
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
