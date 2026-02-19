@@ -1,79 +1,101 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Sinjini Laha | Portfolio</title>
+    <title>Sinjini | AI & Software Engineer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
+<body>
 
-<body style="margin:0; font-family: Arial, sans-serif; background: linear-gradient(135deg,#1e3c72,#2a5298); color:white;">
+<nav>
+    <h2>Sinjini Laha</h2>
+    <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
 
-    <!-- Navbar -->
-    <div style="display:flex; justify-content:space-between; padding:20px 50px; align-items:center;">
-        <h2 style="margin:0;">Sinjini Laha</h2>
-        <div>
-            <a href="#about" style="color:white; text-decoration:none; margin:15px;">About</a>
-            <a href="#projects" style="color:white; text-decoration:none; margin:15px;">Projects</a>
-            <a href="#contact" style="color:white; text-decoration:none; margin:15px;">Contact</a>
+<section class="hero">
+    <h1>Hi, I'm Sinjini!</h1>
+    <p>CSE Student | AI Enthusiast | GATE 2026 Aspirant</p>
+    <a href="assets/resume.pdf" class="btn">Download Resume</a>
+</section>
+
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+        I am a Computer Science student focused on building strong foundations in 
+        Data Structures, Algorithms, Artificial Intelligence and System Design.
+        I aim to build scalable, real-world solutions while preparing for GATE 2026.
+    </p>
+</section>
+
+<section id="skills" class="section light">
+    <h2>Skills</h2>
+    <div class="grid">
+        <div class="card">Java</div>
+        <div class="card">Python</div>
+        <div class="card">SQL</div>
+        <div class="card">Data Structures</div>
+        <div class="card">Machine Learning</div>
+        <div class="card">HTML & CSS</div>
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="grid">
+
+        <div class="card project">
+            <h3>AI Chatbot</h3>
+            <p>NLP-based conversational assistant using Python.</p>
+        </div>
+
+        <div class="card project">
+            <h3>Data Analytics Dashboard</h3>
+            <p>EDA and visualization using Pandas & Matplotlib.</p>
+        </div>
+
+        <div class="card project">
+            <h3>Algorithm Visualizer</h3>
+            <p>Interactive visualization of sorting algorithms.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="section light">
+    <h2>Contact</h2>
+    
+
+    <div class="social-container">
+        <h3>Social Handles</h3>
+
+        <div class="social-icons">
+                
+            <a href="mailto:sinjinilaha@gmail.com" target="_blank">
+                <i class="fas fa-envelope"></i>
+            </a>
+
+            <a href="https://github.com/sinjinilaha" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://in.linkedin.com/in/sinjini-laha" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
         </div>
     </div>
+</section>
 
-    <!-- Hero Section -->
-    <div style="text-align:center; padding:100px 20px;">
-        <h1 style="font-size:50px; margin-bottom:10px;">Hello, I'm Sinjini Laha👋</h1>
-        <p style="font-size:20px; opacity:0.9;">CSE Student | GATE 2026 Aspirant | AI & ML Enthusiast</p>
-        <button style="padding:12px 25px; margin-top:20px; border:none; border-radius:25px; background:white; color:#1e3c72; font-weight:bold; cursor:pointer;">
-            Download Resume
-        </button>
-    </div>
-
-    <!-- About Section -->
-    <div id="about" style="background:white; color:black; padding:60px 20px; text-align:center;">
-        <h2>About Me</h2>
-        <p style="max-width:700px; margin:auto; line-height:1.6;">
-            I am a passionate Computer Science student focused on building strong fundamentals 
-            in Data Structures, Algorithms, Artificial Intelligence, and Cloud Computing. 
-            My goal is to rank in the top percentile of GATE 2026 while building industry-ready skills.
-        </p>
-    </div>
-
-    <!-- Projects Section -->
-    <div id="projects" style="padding:60px 20px; text-align:center;">
-        <h2>My Projects</h2>
-
-        <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:30px; margin-top:40px;">
-
-            <div style="background:white; color:black; width:300px; padding:20px; border-radius:15px;">
-                <h3>AI Chatbot</h3>
-                <p>Built using Python & NLP techniques for intelligent conversation handling.</p>
-            </div>
-
-            <div style="background:white; color:black; width:300px; padding:20px; border-radius:15px;">
-                <h3>Portfolio Website</h3>
-                <p>Responsive personal portfolio showcasing skills and projects.</p>
-            </div>
-
-            <div style="background:white; color:black; width:300px; padding:20px; border-radius:15px;">
-                <h3>Data Analytics Project</h3>
-                <p>Performed EDA and visualization using Pandas and Matplotlib.</p>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- Contact Section -->
-    <div id="contact" style="background:white; color:black; padding:60px 20px; text-align:center;">
-        <h2>Contact Me</h2>
-        <p>Email: sinjinilaha@gmail.com</p>
-        <p>LinkedIn: linkedin.com/in/sinjinilaha</p>
-        <p>GitHub: github.com/sinjinilaha</p>
-    </div>
-
-    <!-- Footer -->
-    <div style="text-align:center; padding:20px; background:#111;">
-        <p style="margin:0; font-size:14px;">© 2026 sinjinilaha. All Rights Reserved.</p>
-    </div>
+<footer>
+    <p>© 2026 Sinjini Laha | Built with HTML & CSS</p>
+</footer>
 
 </body>
 </html>
