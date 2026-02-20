@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website! I'm Sinjini Laha, a Computer Science student specializing in AI, algorithms, and scalable systems.
 
 ## 🚀 Live Site
-This site is hosted on GitHub Pages: [sinjinilaha.github.io/portfolio](https://sinjinilaha.github.io/portfolio) (replace with your actual URL).
+This site is hosted on GitHub Pages: [sinjinilaha.github.io/Portfolio](https://sinjinilaha.github.io/Portfolio) 
 
 ## 📋 Overview
 This portfolio showcases:
