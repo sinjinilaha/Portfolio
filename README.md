@@ -13,8 +13,8 @@ This portfolio showcases:
 - Contact information and social links
 
 ## 🛠 Tech Stack
-- **HTML5** - Semantic structure
-- **CSS3** - Responsive design with dark/light themes
+- **HTML** - Semantic structure
+- **CSS** - Responsive design with dark/light themes
 - **Vanilla JavaScript** - Interactive features (theme toggle, animations)
 - **GitHub Pages** - Hosting
 
@@ -37,13 +37,7 @@ portfolio/
     └── resume.pdf
 ```
 
-## 🚀 Deployment Instructions
-1. Fork or clone this repo.
-2. Ensure `index.html` is in the root.
-3. Go to your repo on GitHub > Settings > Pages.
-4. Set source to "Deploy from a branch" > Branch: main > Folder: /(root).
-5. Save and wait for deployment (usually 1-2 minutes).
-6. Your site will be at `https://[username].github.io/[repo-name]`.
+
 
 ## 📝 Notes
 - Projects section is coming soon once they're live.
@@ -57,4 +51,4 @@ portfolio/
 
 ---
 
-Built with ❤️ using HTML, CSS & JS.
+Built using HTML, CSS & JS.
