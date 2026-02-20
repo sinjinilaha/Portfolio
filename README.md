@@ -25,6 +25,7 @@ This portfolio showcases:
 - Scroll-to-top button
 - Email copy functionality
 
+<!--
 ## 📁 Project Structure
 ```
 portfolio/
@@ -36,6 +37,7 @@ portfolio/
     ├── profile.jpg
     └── resume.pdf
 ```
+-->
 
 
 
